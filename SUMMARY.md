@@ -24,6 +24,7 @@
 * [React 란?](react/1.md)
 * [Hook](react/hook.md)
 * [Loadmap](react/loadmap.md)
+* [redux](react/redux.md)
 
 ## FrontEnd 성능최적화 <a id="frontend-1"></a>
 
@@ -45,4 +46,5 @@
 * [초기화할때](undefined-2.md)
 * [npm](npm.md)
 * [float clear](float-clear.md)
+* [20200404](20200404.md)
 
