@@ -18,6 +18,7 @@
   * [this](javascript/this.md)
   * [비동기](javascript/undefined-2.md)
   * [LazyLoading](javascript/lazyloading.md)
+  * [prototype](javascript/prototype.md)
 * [TypeScript](typescript.md)
 * [VanillaScript](vanillascript.md)
 * [용어사전](undefined.md)
