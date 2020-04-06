@@ -15,6 +15,7 @@
   * [axios](javascript/axios.md)
   * [this](javascript/this.md)
   * [비동기](javascript/undefined-2.md)
+  * [LazyLoading](javascript/lazyloading.md)
 * [TypeScript](typescript.md)
 * [VanillaScript](vanillascript.md)
 * [용어사전](undefined.md)
@@ -25,6 +26,7 @@
 * [Hook](react/hook.md)
 * [Loadmap](react/loadmap.md)
 * [redux](react/redux.md)
+* [React Transition](react/react-transition.md)
 
 ## FrontEnd 성능최적화 <a id="frontend-1"></a>
 
