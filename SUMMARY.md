@@ -34,6 +34,7 @@
 ## Redux <a id="redux-1"></a>
 
 * [Redux](redux-1/redux.md)
+* [설치](redux-1/undefined.md)
 * [Middleware](redux-1/middleware/README.md)
   * [redux-thunk](redux-1/middleware/redux-thunk.md)
 
