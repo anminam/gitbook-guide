@@ -30,11 +30,11 @@
 ## 변대리님께 지적받은사항
 
 1. Html Wrapper 네이밍 \(용도-타입\)
-   * Wrapper-어쩌구
-   * Box-어쩌구
-   * Article-어쩌구
-   * Aisde-어쩌구
-   * Btn-어쩌구
+   * wrapper-어쩌구
+   * box-어쩌구
+   * article-어쩌구
+   * aisde-어쩌구
+   * btn-어쩌구
 2. css 클래스 첫글짜는 숫자 절대 금지
 3. button 태그에는 반드시 type
 4. 햄버거는 span 대신 i 태그로
