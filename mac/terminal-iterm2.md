@@ -146,7 +146,23 @@ rm -rf fonts
 
 ![&#xC644;&#xB8CC;](../.gitbook/assets/2020-04-25-7.18.55.png)
 
+##  기타
+
+### 추천테마 
+
+agnoster.zsh-theme 에서는 아래와같은 테마를 추천한다고 합니다.
+
+A ZSH theme optimized for people who use:
+
+* Solarized
+* Git
+* Unicode-compatible fonts and terminals \(I use iTerm2 + Menlo\)
+
+For Mac users, I highly recommend iTerm 2 + Solarized Dark
+
 ## 참고 자료
+
+* [https://gist.github.com/agnoster/3712874](https://gist.github.com/agnoster/3712874)
 
 {% embed url="https://www.iterm2.com/" %}
 
