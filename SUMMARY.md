@@ -92,3 +92,7 @@
 * [사이트모음](undefined-1/README.md)
   * [API](undefined-1/api.md)
 
+## mac
+
+* [Terminal - iTerm2](mac/terminal-iterm2.md)
+
