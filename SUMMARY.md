@@ -52,6 +52,10 @@
 
 * [Terminal - iTerm2](mac/terminal-iterm2.md)
 
+## python
+
+* [Django](python/django.md)
+
 ## 기타 <a id="undefined-5"></a>
 
 * [단축키](undefined-5/undefined.md)
