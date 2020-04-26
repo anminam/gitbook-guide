@@ -63,5 +63,20 @@ format on save
 django-admin startproject config
 
 > config 폴더안에 config 폴더와, manage.py 를 루트로 가져온다
+
+// 실행
+python manage.py runserver
+
+// 아래주소 접속
+http://127.0.0.1:8000/admin/
+
+// 에러나면
+python manage.py migrate
+
+// 슈퍼유저 만들기
+python manage.py createsuperuser
+
+// 어플리케이션만들
+django-admin startapp lists
 ```
 
