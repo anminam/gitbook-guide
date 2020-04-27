@@ -146,6 +146,52 @@ rm -rf fonts
 
 ![&#xC644;&#xB8CC;](../.gitbook/assets/2020-04-25-7.18.55.png)
 
+###  조금만더 이쁘게...
+
+```bash
+prompt_context() {
+  emoji_list=(🐱)
+  INDEX=$(( $RANDOM % ${#emoji_list[@]} + 1))
+  prompt_segment black default "원하는글자 ${emoji_list[$INDEX]} "
+}
+
+```
+
+###  새로운 줄에
+
+```bash
+vi ~/.oh-my-zsh/themes/agnoster.zsh-theme
+```
+
+```bash
+build_prompt() {
+  RETVAL=$?
+  prompt_status
+  prompt_virtualenv
+  prompt_context
+  prompt_dir
+  prompt_git
+  prompt_bzr
+  prompt_hg
+  prompt_newline // 반드시 여기
+  prompt_end
+}
+```
+
+```bash
+prompt_newline() {
+  if [[ -n $CURRENT_BG ]]; then
+    echo -n "%{%k%F{$CURRENT_BG}%}$SEGMENT_SEPARATOR
+%{%k%F{blue}%}$SEGMENT_SEPARATOR"
+  else
+    echo -n "%{%k%}"
+  fi
+
+  echo -n "%{%f%}"
+  CURRENT_BG=''
+}
+```
+
 ##  기타
 
 ### 추천테마 
@@ -163,6 +209,9 @@ For Mac users, I highly recommend iTerm 2 + Solarized Dark
 ## 참고 자료
 
 * [https://gist.github.com/agnoster/3712874](https://gist.github.com/agnoster/3712874)
+* [https://blog.totu.dev/2016/04/08/zsh2line/](https://blog.totu.dev/2016/04/08/zsh2line/)
+* [https://thisismecoding.com/multine-agnoster-oh-my-zsh/](https://thisismecoding.com/multine-agnoster-oh-my-zsh/)
+* [https://fernando.kr/15](https://fernando.kr/15)
 
 {% embed url="https://www.iterm2.com/" %}
 
